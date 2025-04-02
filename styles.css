@@ -83,12 +83,13 @@ a {
 
 .hero .hero-image {
   width: 450px;
-  color: white;
+  /* THESE CODE STYLE THE IMAGE CONTAINER-IF YOU PREFER NOT TO USE THE IMAGE. */
+  /* color: white;
   background-color: #666668;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 8px; */
 }
 
 .hero .hero-image img {
