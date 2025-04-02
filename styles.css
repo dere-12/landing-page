@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*  HEADER AND HERO SECTIONS */
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.container .head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.container .hero {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding: 30px 0;
+}
+
+.head div p {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.head ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero .hero-text {
+  width: 450px;
+}
+
+.hero .hero-text h1 {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero .hero-text p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero .hero-text button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero .hero-image {
+  width: 450px;
+  color: white;
+  background-color: #666668;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
