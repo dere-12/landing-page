@@ -170,3 +170,35 @@ a {
   padding-right: 32px;
   font-weight: 500;
 }
+
+/* CTA SECTION */
+
+.cta {
+  padding: 60px 0;
+}
+
+.cta-container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 42px 0;
+  color: #f9faf8;
+  background-color: #3882f6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.cta-container .text p {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.cta-container .button button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 4px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
