@@ -23,6 +23,10 @@ A simple landing page built as part of The Odin Project curriculum. It demonstra
    ```
 3. Open `index.html` in your browser to view the landing page.
 
+## Live Preview
+
+- Click [here](https://dere-12.github.io/landing-page/ "https://dere-12.github.io/landing-page/")
+
 ## Credits
 
 - Image: "Running Dog on Beach"
