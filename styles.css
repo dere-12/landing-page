@@ -112,18 +112,20 @@ a {
 
 .main .main-container h2 {
   margin: 40px 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .main .cards {
   display: flex;
   justify-content: center;
-  gap: 36px;
+  gap: 48px;
   margin-bottom: 48px;
 }
 
 .main .cards div {
   width: 150px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,4 +141,32 @@ a {
 .main .cards div p {
   color: #686a6e;
   margin-top: 10px;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 32px 32px 32px 100px;
+}
+
+.quote-container {
+  width: 850px;
+  margin: 0 auto;
+  text-align: start;
+  padding: 48px 18px;
+}
+
+.quote-container .text {
+  color: #73767a;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote-container p {
+  float: right;
+  margin-top: 38px;
+  padding-right: 32px;
+  font-weight: 500;
 }
